@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39491" started-at="2018-06-20T14:31:18Z" finished-at="2018-06-20T14:31:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39491" started-at="2018-06-20T14:31:18Z" finished-at="2018-06-20T14:31:57Z">
+      <class name="com.prestashop.tests.PrestaShopAutomationPractice">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="setUp" is-config="true" duration-ms="4976" started-at="2018-06-20T14:31:28Z" finished-at="2018-06-20T14:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankEmailTest()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="blankEmailTest" duration-ms="2009" started-at="2018-06-20T14:31:33Z" finished-at="2018-06-20T14:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankEmailTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="closeBrowser" is-config="true" duration-ms="274" started-at="2018-06-20T14:31:35Z" finished-at="2018-06-20T14:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="setUp" is-config="true" duration-ms="4856" started-at="2018-06-20T14:31:36Z" finished-at="2018-06-20T14:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankPasswordTest()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="blankPasswordTest" duration-ms="2284" started-at="2018-06-20T14:31:41Z" finished-at="2018-06-20T14:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="closeBrowser" is-config="true" duration-ms="205" started-at="2018-06-20T14:31:43Z" finished-at="2018-06-20T14:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="setUp" is-config="true" duration-ms="4634" started-at="2018-06-20T14:31:43Z" finished-at="2018-06-20T14:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidEmailTest()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="invalidEmailTest" duration-ms="2131" started-at="2018-06-20T14:31:48Z" finished-at="2018-06-20T14:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="closeBrowser" is-config="true" duration-ms="260" started-at="2018-06-20T14:31:50Z" finished-at="2018-06-20T14:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="setUp" is-config="true" duration-ms="4641" started-at="2018-06-20T14:31:50Z" finished-at="2018-06-20T14:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wrongCredentialsTest()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="wrongCredentialsTest" duration-ms="2138" started-at="2018-06-20T14:31:55Z" finished-at="2018-06-20T14:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredentialsTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice@685cb137]" name="closeBrowser" is-config="true" duration-ms="210" started-at="2018-06-20T14:31:57Z" finished-at="2018-06-20T14:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.prestashop.tests.PrestaShopAutomationPractice -->
+      <class name="com.prestashop.tests.PrestaShopAutomationPractice$LoginPositiveScenarios">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.prestashop.tests.PrestaShopAutomationPractice$LoginPositiveScenarios@6a41eaa2]" name="loginTest" duration-ms="10835" started-at="2018-06-20T14:31:18Z" finished-at="2018-06-20T14:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.prestashop.tests.PrestaShopAutomationPractice$LoginPositiveScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

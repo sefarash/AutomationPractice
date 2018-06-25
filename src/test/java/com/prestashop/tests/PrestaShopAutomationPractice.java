@@ -10,11 +10,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PrestaShopAutomationPractice {
 	
 	WebDriver driver;
+	Faker faker;
 	
 	@BeforeMethod
 	public void setUp() {
@@ -28,15 +31,15 @@ public class PrestaShopAutomationPractice {
 		String expected ="Authentication failed.";
 		
 		
-		 driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//div[@class='header_user_info']/a")).click();
 		driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[2]")).clear();
 	    driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[2]")).
-		sendKeys("lastname.name@gmail.com");
+		sendKeys("name.lastname@gmail.com");
 	    driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 	    driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[3]")).clear();
 		driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[3]")).
-		sendKeys("123456789");
+		sendKeys("12345kda");
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.findElement(By.id("SubmitLogin")).click();
 		String errorMessage = driver.findElement(By.xpath("//div[@class='alert alert-danger']/ol/li")).getText();
@@ -52,7 +55,7 @@ public class PrestaShopAutomationPractice {
 	driver.findElement(By.xpath("//div[@class='header_user_info']/a")).click();
 	driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[2]")).clear();
     driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[2]")).
-	sendKeys("lastname.namegmail.com");
+	sendKeys("name.lastnamegmail.com");
     driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[3]")).clear();
 	driver.findElement(By.xpath("(//input[@class='is_required validate account_input form-control'])[3]")).
